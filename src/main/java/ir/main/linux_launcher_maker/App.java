@@ -8,8 +8,6 @@ import main_page.MainPage;
 public class App {
 	public static void main(String[] args) {
 		try {
-			//SETUP THE FONT FOR UTILITIES INTO CUNSTRUCTOR
-			new Utilities();
 			// SETUP THE THEME FOR EACH OPERATING SYSTEM
 			String osName = System.getProperty("os.name");
 			if (osName.contains("nux")) {// IF IT IS MAC-OS OR LINUX OR UNIX
@@ -21,6 +19,6 @@ public class App {
 			e.printStackTrace();
 		}
 		// LAUNCH THE MAIN PAGE
-		new MainPage();
+		new MainPage().main();
 	}
 }
