@@ -4,6 +4,6 @@
   - applications will message if runnable file path field or name field is empty
 
 # How to build
-  - launch mnv 
+  - $ mnv 
   
 # Required version of java 8 or later
